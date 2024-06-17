@@ -1,0 +1,59 @@
+.contact-section {
+    background-color: #f2f2f2; 
+    width: 100%;
+    padding: 70px 0; 
+    overflow-x: hidden;
+    border-radius: 30px;
+    margin-top: 7px;
+}
+
+/* Centered content container */
+.contact {
+    display: flex; 
+    width: 100%;
+}
+
+.contact-col {
+    color: #676767;
+    margin-bottom: 20px;
+    text-align: center; /* Center text horizontally */
+    width: 100%;
+}
+
+.contact-col h3 {
+    color: #000F38;
+    font-weight: 500;
+    font-size: 30px;
+    display: inline-block; /* Make it an inline-block element */
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.contact-col h4 {
+    color: #162d6b; 
+    width: 100%;
+    margin-left: 10px;
+}
+
+.contact-col p {
+    list-style: 0.3;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.contact-col ul li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
